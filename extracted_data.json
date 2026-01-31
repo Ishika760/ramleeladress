@@ -1,0 +1,1049 @@
+[
+    {
+        "page": 1,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_1_img_1_X4.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_2_X7.png",
+                "width": 634,
+                "height": 656
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_3_X9.png",
+                "width": 548,
+                "height": 842
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_4_X11.png",
+                "width": 211,
+                "height": 529
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_5_X13.png",
+                "width": 282,
+                "height": 384
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_6_X15.png",
+                "width": 795,
+                "height": 499
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_7_X17.png",
+                "width": 2503,
+                "height": 1296
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_8_X20.png",
+                "width": 358,
+                "height": 454
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_9_X22.png",
+                "width": 780,
+                "height": 759
+            },
+            {
+                "type": "image",
+                "path": "assets/page_1_img_10_X24.png",
+                "width": 579,
+                "height": 597
+            },
+            {
+                "type": "text",
+                "content": "R a m l e e l a"
+            },
+            {
+                "type": "text",
+                "content": "R a m l e e l a"
+            },
+            {
+                "type": "text",
+                "content": "D r e s s e s"
+            },
+            {
+                "type": "text",
+                "content": "D r e s s e s"
+            }
+        ]
+    },
+    {
+        "page": 2,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_2_img_1_X4.png",
+                "width": 922,
+                "height": 1152
+            },
+            {
+                "type": "image",
+                "path": "assets/page_2_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Barahbandi"
+            },
+            {
+                "type": "text",
+                "content": "For Ram ji/Laxmanji/Sadhu"
+            },
+            {
+                "type": "text",
+                "content": "20*-165"
+            },
+            {
+                "type": "text",
+                "content": "24*-175"
+            },
+            {
+                "type": "text",
+                "content": "28*-250"
+            },
+            {
+                "type": "text",
+                "content": "32*-375"
+            },
+            {
+                "type": "text",
+                "content": "36*-400"
+            },
+            {
+                "type": "text",
+                "content": "40*-400"
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_3_img_1_X4.png",
+                "width": 804,
+                "height": 1280
+            },
+            {
+                "type": "image",
+                "path": "assets/page_3_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Barahbandi"
+            },
+            {
+                "type": "text",
+                "content": "For R avana sadhu/Ravana"
+            },
+            {
+                "type": "text",
+                "content": "sena/Rakshas sena"
+            },
+            {
+                "type": "text",
+                "content": "20*-165"
+            },
+            {
+                "type": "text",
+                "content": "24*-175"
+            },
+            {
+                "type": "text",
+                "content": "28*-250"
+            },
+            {
+                "type": "text",
+                "content": "32*-375"
+            },
+            {
+                "type": "text",
+                "content": "36*-400"
+            },
+            {
+                "type": "text",
+                "content": "40*-400"
+            }
+        ]
+    },
+    {
+        "page": 4,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_4_img_1_X4.png",
+                "width": 656,
+                "height": 1166
+            },
+            {
+                "type": "image",
+                "path": "assets/page_4_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Saree"
+            },
+            {
+                "type": "text",
+                "content": "For Seeta Vanwsasi"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-300"
+            },
+            {
+                "type": "text",
+                "content": "28*-350"
+            },
+            {
+                "type": "text",
+                "content": "32*-400"
+            },
+            {
+                "type": "text",
+                "content": "36*-450"
+            },
+            {
+                "type": "text",
+                "content": "40*-500"
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_5_img_1_X4.jpg",
+                "width": 1008,
+                "height": 1008
+            },
+            {
+                "type": "image",
+                "path": "assets/page_5_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Dhoti patka"
+            },
+            {
+                "type": "text",
+                "content": "20*-100"
+            },
+            {
+                "type": "text",
+                "content": "24*-120"
+            },
+            {
+                "type": "text",
+                "content": "28*-140"
+            },
+            {
+                "type": "text",
+                "content": "32*-160"
+            },
+            {
+                "type": "text",
+                "content": "36*-180"
+            },
+            {
+                "type": "text",
+                "content": "40*-200"
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_6_img_1_X4.png",
+                "width": 972,
+                "height": 972
+            },
+            {
+                "type": "image",
+                "path": "assets/page_6_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Chester(3-8 Yrs)"
+            },
+            {
+                "type": "text",
+                "content": "For Ramji/Laxmanji/Ravana/Raja"
+            },
+            {
+                "type": "text",
+                "content": "Rate-180"
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_7_img_1_X4.png",
+                "width": 1120,
+                "height": 1120
+            },
+            {
+                "type": "image",
+                "path": "assets/page_7_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Chester(10-12Yrs)"
+            },
+            {
+                "type": "text",
+                "content": "For Ramji/Laxmanji/Ravana/Raja"
+            },
+            {
+                "type": "text",
+                "content": "Rate-275"
+            }
+        ]
+    },
+    {
+        "page": 8,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_8_img_1_X4.jpg",
+                "width": 875,
+                "height": 875
+            },
+            {
+                "type": "image",
+                "path": "assets/page_8_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Chester"
+            },
+            {
+                "type": "text",
+                "content": "For All Character"
+            },
+            {
+                "type": "text",
+                "content": "Rate-250"
+            }
+        ]
+    },
+    {
+        "page": 9,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_9_img_1_X4.jpg",
+                "width": 960,
+                "height": 960
+            },
+            {
+                "type": "image",
+                "path": "assets/page_9_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Raja Coat"
+            },
+            {
+                "type": "text",
+                "content": "For All Character"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-250"
+            },
+            {
+                "type": "text",
+                "content": "28*-350"
+            },
+            {
+                "type": "text",
+                "content": "32*-350"
+            }
+        ]
+    },
+    {
+        "page": 10,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_10_img_1_X4.png",
+                "width": 699,
+                "height": 1280
+            },
+            {
+                "type": "image",
+                "path": "assets/page_10_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Raja Dress"
+            },
+            {
+                "type": "text",
+                "content": "For All Character"
+            },
+            {
+                "type": "text",
+                "content": "Sizes-"
+            },
+            {
+                "type": "text",
+                "content": "20\"-24\"-28\""
+            },
+            {
+                "type": "text",
+                "content": "Rate-225"
+            }
+        ]
+    },
+    {
+        "page": 11,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_11_img_1_X4.png",
+                "width": 872,
+                "height": 1280
+            },
+            {
+                "type": "image",
+                "path": "assets/page_11_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Raja Dress"
+            },
+            {
+                "type": "text",
+                "content": "For All Character"
+            },
+            {
+                "type": "text",
+                "content": "Size-Adult"
+            },
+            {
+                "type": "text",
+                "content": "Rate-325"
+            }
+        ]
+    },
+    {
+        "page": 12,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_12_img_1_X4.jpg",
+                "width": 804,
+                "height": 1280
+            },
+            {
+                "type": "image",
+                "path": "assets/page_12_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Hanuman ji Dress"
+            },
+            {
+                "type": "text",
+                "content": "For Hanuman ji/Sugreev/Bali"
+            },
+            {
+                "type": "text",
+                "content": "20*-285"
+            },
+            {
+                "type": "text",
+                "content": "24*-300"
+            },
+            {
+                "type": "text",
+                "content": "28*-325"
+            },
+            {
+                "type": "text",
+                "content": "32*-350"
+            },
+            {
+                "type": "text",
+                "content": "36*-700"
+            },
+            {
+                "type": "text",
+                "content": "40*-700"
+            }
+        ]
+    },
+    {
+        "page": 13,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_13_img_1_X4.png",
+                "width": 877,
+                "height": 1169
+            },
+            {
+                "type": "image",
+                "path": "assets/page_13_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Vanara Sena Dress"
+            },
+            {
+                "type": "text",
+                "content": "20*-225"
+            },
+            {
+                "type": "text",
+                "content": "24*-225"
+            },
+            {
+                "type": "text",
+                "content": "28*-225"
+            },
+            {
+                "type": "text",
+                "content": "32*-225"
+            }
+        ]
+    },
+    {
+        "page": 14,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_14_img_1_X4.jpg",
+                "width": 1004,
+                "height": 1599
+            },
+            {
+                "type": "image",
+                "path": "assets/page_14_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "White Jumpsuit"
+            },
+            {
+                "type": "text",
+                "content": "For jatau"
+            },
+            {
+                "type": "text",
+                "content": "32*-190"
+            },
+            {
+                "type": "text",
+                "content": "36*-220"
+            },
+            {
+                "type": "text",
+                "content": "40*-250"
+            },
+            {
+                "type": "text",
+                "content": "44*-280"
+            },
+            {
+                "type": "text",
+                "content": "48*-350"
+            },
+            {
+                "type": "text",
+                "content": "52*-375"
+            },
+            {
+                "type": "text",
+                "content": "56*-420"
+            }
+        ]
+    },
+    {
+        "page": 15,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_15_img_1_X4.jpg",
+                "width": 904,
+                "height": 1440
+            },
+            {
+                "type": "image",
+                "path": "assets/page_15_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Black Jumpsuit"
+            },
+            {
+                "type": "text",
+                "content": "For Jamvant"
+            },
+            {
+                "type": "text",
+                "content": "32*-190"
+            },
+            {
+                "type": "text",
+                "content": "36*-220"
+            },
+            {
+                "type": "text",
+                "content": "40*-250"
+            },
+            {
+                "type": "text",
+                "content": "44*-280"
+            },
+            {
+                "type": "text",
+                "content": "48*-350"
+            },
+            {
+                "type": "text",
+                "content": "52*-375"
+            },
+            {
+                "type": "text",
+                "content": "56*-420"
+            }
+        ]
+    },
+    {
+        "page": 16,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_16_img_1_X4.jpg",
+                "width": 904,
+                "height": 1440
+            },
+            {
+                "type": "image",
+                "path": "assets/page_16_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Golden Jumpsuit"
+            },
+            {
+                "type": "text",
+                "content": "For Maarich/Heeran"
+            },
+            {
+                "type": "text",
+                "content": "32*-190"
+            },
+            {
+                "type": "text",
+                "content": "36*-220"
+            },
+            {
+                "type": "text",
+                "content": "40*-250"
+            },
+            {
+                "type": "text",
+                "content": "44*-280"
+            },
+            {
+                "type": "text",
+                "content": "48*-350"
+            },
+            {
+                "type": "text",
+                "content": "52*-375"
+            },
+            {
+                "type": "text",
+                "content": "56*-420"
+            }
+        ]
+    },
+    {
+        "page": 17,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_17_img_1_X4.png",
+                "width": 438,
+                "height": 1145
+            },
+            {
+                "type": "image",
+                "path": "assets/page_17_img_2_X8.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Bhoot Dress"
+            },
+            {
+                "type": "text",
+                "content": "For Rakshas/For Bhoot"
+            },
+            {
+                "type": "text",
+                "content": "24*-165"
+            },
+            {
+                "type": "text",
+                "content": "28*-165"
+            },
+            {
+                "type": "text",
+                "content": "32*-165"
+            },
+            {
+                "type": "text",
+                "content": "40*-400"
+            }
+        ]
+    },
+    {
+        "page": 18,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_18_img_1_X4.jpg",
+                "width": 864,
+                "height": 864
+            },
+            {
+                "type": "image",
+                "path": "assets/page_18_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Lehenga"
+            },
+            {
+                "type": "text",
+                "content": "For RaniSeetaji/Rani Character"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-250"
+            },
+            {
+                "type": "text",
+                "content": "28*-350"
+            },
+            {
+                "type": "text",
+                "content": "32*-350"
+            },
+            {
+                "type": "text",
+                "content": "36*-650"
+            },
+            {
+                "type": "text",
+                "content": "40*-650"
+            }
+        ]
+    },
+    {
+        "page": 19,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_19_img_1_X4.jpg",
+                "width": 864,
+                "height": 864
+            },
+            {
+                "type": "image",
+                "path": "assets/page_19_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Lehenga"
+            },
+            {
+                "type": "text",
+                "content": "For Surphanaka/Trijata/lady Rakshas"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-250"
+            },
+            {
+                "type": "text",
+                "content": "28*-350"
+            },
+            {
+                "type": "text",
+                "content": "32*-350"
+            },
+            {
+                "type": "text",
+                "content": "36*-650"
+            },
+            {
+                "type": "text",
+                "content": "40*-650"
+            }
+        ]
+    },
+    {
+        "page": 20,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_20_img_1_X4.jpg",
+                "width": 1080,
+                "height": 1080
+            },
+            {
+                "type": "image",
+                "path": "assets/page_20_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Mrigshala"
+            },
+            {
+                "type": "text",
+                "content": "For BhagwanParhshuram/Shankarji"
+            },
+            {
+                "type": "text",
+                "content": "20*-90"
+            },
+            {
+                "type": "text",
+                "content": "24*-90"
+            },
+            {
+                "type": "text",
+                "content": "28*-175"
+            },
+            {
+                "type": "text",
+                "content": "32*-225"
+            },
+            {
+                "type": "text",
+                "content": "36*-300"
+            },
+            {
+                "type": "text",
+                "content": "40*-300"
+            }
+        ]
+    },
+    {
+        "page": 21,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_21_img_1_X4.jpg",
+                "width": 911,
+                "height": 1152
+            },
+            {
+                "type": "image",
+                "path": "assets/page_21_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Mrigshala ( Heavy)"
+            },
+            {
+                "type": "text",
+                "content": "For BhagwanParhshuram/Shankarji"
+            },
+            {
+                "type": "text",
+                "content": "24*-180"
+            },
+            {
+                "type": "text",
+                "content": "28*-200"
+            },
+            {
+                "type": "text",
+                "content": "32*-225"
+            }
+        ]
+    },
+    {
+        "page": 22,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_22_img_1_X4.jpg",
+                "width": 904,
+                "height": 1440
+            },
+            {
+                "type": "image",
+                "path": "assets/page_22_img_2_X7.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "text",
+                "content": "Kewat Dress"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-300"
+            },
+            {
+                "type": "text",
+                "content": "28*-350"
+            },
+            {
+                "type": "text",
+                "content": "32*-400"
+            },
+            {
+                "type": "text",
+                "content": "36*-450"
+            },
+            {
+                "type": "text",
+                "content": "40*-500"
+            }
+        ]
+    },
+    {
+        "page": 23,
+        "blocks": [
+            {
+                "type": "image",
+                "path": "assets/page_23_img_1_X4.png",
+                "width": 1598,
+                "height": 2112
+            },
+            {
+                "type": "image",
+                "path": "assets/page_23_img_2_X8.png",
+                "width": 1057,
+                "height": 885
+            },
+            {
+                "type": "text",
+                "content": "Joker dress"
+            },
+            {
+                "type": "text",
+                "content": "Dress"
+            },
+            {
+                "type": "text",
+                "content": "20*-250"
+            },
+            {
+                "type": "text",
+                "content": "24*-275"
+            },
+            {
+                "type": "text",
+                "content": "28*-300"
+            },
+            {
+                "type": "text",
+                "content": "32*-350"
+            },
+            {
+                "type": "text",
+                "content": "36*-400"
+            },
+            {
+                "type": "text",
+                "content": "40*-400"
+            },
+            {
+                "type": "text",
+                "content": "Wig-90"
+            },
+            {
+                "type": "text",
+                "content": "Nose-15"
+            }
+        ]
+    }
+]
