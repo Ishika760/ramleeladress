@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imported Items.. (1) Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --accent: #d4af37;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 4rem;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            position: relative;
+        }
+        
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .page-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-bottom: 5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-image-container {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            background: #eee;
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: scale 0.5s ease;
+            padding: 10px;
+        }
+
+        .card:hover img {
+            scale: 1.05;
+        }
+
+        .card-content {
+            padding: 2rem;
+            flex-grow: 1;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+            outline: none;
+        }
+
+        .card-text:focus {
+            background: #fffef0;
+            border-radius: 4px;
+        }
+
+        .tag {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--accent);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #eee;
+            margin-top: 5rem;
+        }
+
+        /* Cover Page Special Styling */
+        .cover-page {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            min-height: 600px;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .cover-visuals {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        .cover-visuals img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .cover-content {
+            flex: 1;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffffff 0%, #fdfdfd 100%);
+        }
+
+        .cover-content h1 {
+            font-size: 4rem;
+            color: var(--primary);
+            margin: 0;
+            line-height: 1;
+        }
+
+        .cover-content h2 {
+            font-size: 2rem;
+            color: var(--accent);
+            margin: 1rem 0;
+        }
+
+        [contenteditable]:hover {
+            cursor: text;
+            background-color: rgba(212, 175, 55, 0.05);
+        }
+
+        @media (max-width: 768px) {
+            .page-grid {
+                grid-template-columns: 1fr;
+            }
+            .cover-page {
+                flex-direction: column;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="back-link">← Back to Catalog Hub</a>
+    <h1>Imported Items.. (1)</h1>
+    <p>Premium Collection</p>
+</header>
+
+<div class="container">
+    <div class="page-grid">
+
+        <div class="cover-page">
+            <div class="cover-visuals">
+                <img src="assets/Imported Items.. (1)/page_1_img_1_X4.jpg" alt="Catalog Item">
+            </div>
+            <div class="cover-content">
+                <h1 contenteditable="true">Imported</h1>
+                <h2 contenteditable="true">Items.. (1)</h2>
+                <p contenteditable="true">Premium Collection</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_2_img_1_X8.jpg" alt="Page 2">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 2</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_3_img_1_X11.jpg" alt="Page 3">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 3</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_4_img_1_X14.jpg" alt="Page 4">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 4</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_5_img_1_X17.jpg" alt="Page 5">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 5</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_6_img_1_X4.jpg" alt="Page 6">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 6</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_7_img_1_X8.jpg" alt="Page 7">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 7</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_8_img_1_X11.jpg" alt="Page 8">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 8</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_9_img_1_X14.jpg" alt="Page 9">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 9</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_10_img_1_X17.jpg" alt="Page 10">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 10</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_11_img_1_X4.jpg" alt="Page 11">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 11</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_12_img_1_X8.jpg" alt="Page 12">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 12</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_13_img_1_X11.jpg" alt="Page 13">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 13</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_14_img_1_X14.jpg" alt="Page 14">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 14</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_15_img_1_X17.jpg" alt="Page 15">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 15</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_16_img_1_X4.jpg" alt="Page 16">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 16</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_17_img_1_X8.jpg" alt="Page 17">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 17</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_18_img_1_X11.jpg" alt="Page 18">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 18</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_19_img_1_X14.jpg" alt="Page 19">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 19</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_20_img_1_X17.jpg" alt="Page 20">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 20</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_21_img_1_X4.jpg" alt="Page 21">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 21</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_22_img_1_X8.jpg" alt="Page 22">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 22</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_23_img_1_X11.jpg" alt="Page 23">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 23</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_24_img_1_X14.jpg" alt="Page 24">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 24</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_25_img_1_X17.jpg" alt="Page 25">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 25</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_26_img_1_X4.jpg" alt="Page 26">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 26</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_27_img_1_X8.jpg" alt="Page 27">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 27</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_28_img_1_X11.jpg" alt="Page 28">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 28</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_29_img_1_X14.jpg" alt="Page 29">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 29</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_30_img_1_X17.jpg" alt="Page 30">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 30</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_31_img_1_X4.jpg" alt="Page 31">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 31</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_32_img_1_X8.jpg" alt="Page 32">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 32</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_33_img_1_X11.jpg" alt="Page 33">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 33</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_34_img_1_X14.jpg" alt="Page 34">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 34</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_35_img_1_X17.jpg" alt="Page 35">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 35</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_36_img_1_X4.jpg" alt="Page 36">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 36</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_37_img_1_X8.jpg" alt="Page 37">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 37</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_38_img_1_X11.jpg" alt="Page 38">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 38</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_39_img_1_X14.jpg" alt="Page 39">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 39</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_40_img_1_X17.jpg" alt="Page 40">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 40</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_41_img_1_X4.jpg" alt="Page 41">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 41</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_42_img_1_X8.jpg" alt="Page 42">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 42</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_43_img_1_X11.jpg" alt="Page 43">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 43</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_44_img_1_X14.jpg" alt="Page 44">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 44</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_45_img_1_X17.jpg" alt="Page 45">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 45</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_46_img_1_X4.jpg" alt="Page 46">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 46</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_47_img_1_X8.jpg" alt="Page 47">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 47</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_48_img_1_X11.jpg" alt="Page 48">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 48</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_49_img_1_X14.jpg" alt="Page 49">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 49</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_50_img_1_X17.jpg" alt="Page 50">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 50</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_51_img_1_X4.jpg" alt="Page 51">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 51</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_52_img_1_X8.jpg" alt="Page 52">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 52</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_53_img_1_X11.jpg" alt="Page 53">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 53</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_54_img_1_X14.jpg" alt="Page 54">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 54</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_55_img_1_X17.jpg" alt="Page 55">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 55</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_56_img_1_X4.jpg" alt="Page 56">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 56</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_57_img_1_X8.jpg" alt="Page 57">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 57</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_58_img_1_X11.jpg" alt="Page 58">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 58</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_59_img_1_X14.jpg" alt="Page 59">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 59</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_60_img_1_X17.jpg" alt="Page 60">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 60</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_61_img_1_X4.jpg" alt="Page 61">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 61</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_62_img_1_X8.jpg" alt="Page 62">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 62</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_63_img_1_X11.jpg" alt="Page 63">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 63</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_64_img_1_X14.jpg" alt="Page 64">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 64</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_65_img_1_X17.jpg" alt="Page 65">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 65</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_66_img_1_X4.jpg" alt="Page 66">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 66</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_67_img_1_X8.jpg" alt="Page 67">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 67</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_68_img_1_X11.jpg" alt="Page 68">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 68</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_69_img_1_X14.jpg" alt="Page 69">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 69</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_70_img_1_X17.jpg" alt="Page 70">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 70</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_71_img_1_X4.jpg" alt="Page 71">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 71</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_72_img_1_X8.jpg" alt="Page 72">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 72</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_73_img_1_X11.jpg" alt="Page 73">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 73</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_74_img_1_X14.jpg" alt="Page 74">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 74</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_75_img_1_X17.jpg" alt="Page 75">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 75</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_76_img_1_X4.jpg" alt="Page 76">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 76</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_77_img_1_X8.jpg" alt="Page 77">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 77</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_78_img_1_X11.jpg" alt="Page 78">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 78</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_79_img_1_X14.jpg" alt="Page 79">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 79</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_80_img_1_X17.jpg" alt="Page 80">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 80</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_81_img_1_X4.jpg" alt="Page 81">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 81</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_82_img_1_X8.jpg" alt="Page 82">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 82</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_83_img_1_X11.jpg" alt="Page 83">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 83</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_84_img_1_X14.jpg" alt="Page 84">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 84</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_85_img_1_X17.jpg" alt="Page 85">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 85</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/Imported Items.. (1)/page_86_img_1_X4.jpg" alt="Page 86">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">Page 86</h2>
+                <div class="card-text-container">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Imported Items.. (1). All rights reserved.</p>
+    <p><i>Edit any text directly on this page for customization.</i></p>
+</footer>
+
+</body>
+</html>

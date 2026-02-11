@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>national leaders 2024 Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --accent: #d4af37;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 4rem;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            position: relative;
+        }
+        
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .page-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-bottom: 5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-image-container {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            background: #eee;
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: scale 0.5s ease;
+            padding: 10px;
+        }
+
+        .card:hover img {
+            scale: 1.05;
+        }
+
+        .card-content {
+            padding: 2rem;
+            flex-grow: 1;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+            outline: none;
+        }
+
+        .card-text:focus {
+            background: #fffef0;
+            border-radius: 4px;
+        }
+
+        .tag {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--accent);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #eee;
+            margin-top: 5rem;
+        }
+
+        /* Cover Page Special Styling */
+        .cover-page {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            min-height: 600px;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .cover-visuals {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        .cover-visuals img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .cover-content {
+            flex: 1;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffffff 0%, #fdfdfd 100%);
+        }
+
+        .cover-content h1 {
+            font-size: 4rem;
+            color: var(--primary);
+            margin: 0;
+            line-height: 1;
+        }
+
+        .cover-content h2 {
+            font-size: 2rem;
+            color: var(--accent);
+            margin: 1rem 0;
+        }
+
+        [contenteditable]:hover {
+            cursor: text;
+            background-color: rgba(212, 175, 55, 0.05);
+        }
+
+        @media (max-width: 768px) {
+            .page-grid {
+                grid-template-columns: 1fr;
+            }
+            .cover-page {
+                flex-direction: column;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="back-link">← Back to Catalog Hub</a>
+    <h1>national leaders 2024</h1>
+    <p>Premium Collection</p>
+</header>
+
+<div class="container">
+    <div class="page-grid">
+
+        <div class="cover-page">
+            <div class="cover-visuals">
+                <img src="assets/national leaders 2024/page_1_img_1_X2.jpg" alt="Catalog Item"> <img src="assets/national leaders 2024/page_1_img_2_X3.jpg" alt="Catalog Item"> <img src="assets/national leaders 2024/page_1_img_3_X4.jpg" alt="Catalog Item"> <img src="assets/national leaders 2024/page_1_img_4_X5.jpg" alt="Catalog Item">
+            </div>
+            <div class="cover-content">
+                <h1 contenteditable="true">national</h1>
+                <h2 contenteditable="true">leaders 2024</h2>
+                <p contenteditable="true">Premium Collection</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_2_img_2_X3.jpg" alt="BRITISH OFFICER">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">BRITISH OFFICER</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.605</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 750.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 750.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 750.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 800.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 900.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 900.00</div> <div class="card-text" contenteditable="true">CHANDRA SHEKHAR AZAD</div> <div class="card-text" contenteditable="true">ARTICA NO.606</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 500.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 500.00</div> <div class="card-text" contenteditable="true">CHRISTIAN</div> <div class="card-text" contenteditable="true">ARTICA NO.607</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 450.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 500.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 550.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 550.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 650.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 650.00</div> <div class="card-text" contenteditable="true">GANDHI JI</div> <div class="card-text" contenteditable="true">ARTICA NO.608</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 350.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 400.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 550.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 550.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_3_img_2_X3.jpg" alt="HINDU">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">HINDU</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.609</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 350.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 400.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 500.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 500.00</div> <div class="card-text" contenteditable="true">INDIRA GANDHI</div> <div class="card-text" contenteditable="true">ARTICA NO.610</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 700.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 750.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 800.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 850.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 900.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 950.00</div> <div class="card-text" contenteditable="true">JAWAHAR LAL NEHRU</div> <div class="card-text" contenteditable="true">ARTICA NO.611</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 650.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 650.00</div> <div class="card-text" contenteditable="true">LAL BAHADUR SHASTRI</div> <div class="card-text" contenteditable="true">ARTICA NO.612</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 650.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 650.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_4_img_3_X4.jpg" alt="MANGAL PANDEY">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">MANGAL PANDEY</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.613</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 550.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 600.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 600.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 700.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 800.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 800.00</div> <div class="card-text" contenteditable="true">MOTHER TERESA</div> <div class="card-text" contenteditable="true">ARTICA NO.614</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 500.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 550.00</div> <div class="card-text" contenteditable="true">MUSLIM</div> <div class="card-text" contenteditable="true">ARTICA NO.615</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 400.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 400.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 500.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 600.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 600.00</div> <div class="card-text" contenteditable="true">NETA JI</div> <div class="card-text" contenteditable="true">ARTICA NO.616</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 400.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 400.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 600.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 600.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_5_img_2_X3.jpg" alt="POLITICAL MAN">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">POLITICAL MAN</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.617</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 400.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 400.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 600.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 600.00</div> <div class="card-text" contenteditable="true">RAJ GURU</div> <div class="card-text" contenteditable="true">ARTICA NO.618</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 250.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 250.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 250.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 350.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 400.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 500.00</div> <div class="card-text" contenteditable="true">RANI LAXMI BAI</div> <div class="card-text" contenteditable="true">ARTICA NO.619</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 750.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 800.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 850.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 1000.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 1200.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 1200.00</div> <div class="card-text" contenteditable="true">SARDAR VALLABH BHAI PATEL</div> <div class="card-text" contenteditable="true">ARTICA NO.620</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 450.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 450.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 450.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 500.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 600.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 600.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_6_img_2_X3.jpg" alt="SHIVA JI MAHARAJ">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">SHIVA JI MAHARAJ</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.621</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 700.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 700.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 700.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 750.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 850.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 850.00</div> <div class="card-text" contenteditable="true">SUBHASH CHANDRA BOSS</div> <div class="card-text" contenteditable="true">ARTICA NO.622</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 550.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 550.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 550.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 600.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 700.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 700.00</div> <div class="card-text" contenteditable="true">SUKH DEV</div> <div class="card-text" contenteditable="true">ARTICA NO.623</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 250.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 250.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 250.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 350.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 400.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 500.00</div> <div class="card-text" contenteditable="true">SWAMI VIVEKANAND</div> <div class="card-text" contenteditable="true">ARTICA NO.624</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 400.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 400.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 400.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 450.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 600.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 600.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="tag">Collection 2025</span>
+            <div class="card-image-container">
+                <img src="assets/national leaders 2024/page_7_img_1_X2.jpg" alt="TERRORIST">
+            </div>
+            <div class="card-content">
+                <h2 contenteditable="true">TERRORIST</h2>
+                <div class="card-text-container">
+                    <div class="card-text" contenteditable="true">ARTICA NO.625</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 350.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 350.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 350.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 400.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 550.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 550.00</div> <div class="card-text" contenteditable="true">TIPU SULTAN</div> <div class="card-text" contenteditable="true">ARTICA NO.626</div> <div class="card-text" contenteditable="true">SIZE AGE RATE</div> <div class="card-text" contenteditable="true">20" 3-4 YEAR 700.00</div> <div class="card-text" contenteditable="true">24" 5-6 YEAR 700.00</div> <div class="card-text" contenteditable="true">28" 7-8 YEAR 700.00</div> <div class="card-text" contenteditable="true">32" 9-12 YEAR 750.00</div> <div class="card-text" contenteditable="true">36" 13-16 YEAR 850.00</div> <div class="card-text" contenteditable="true">40" 17 ADULT 850.00</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 national leaders 2024. All rights reserved.</p>
+    <p><i>Edit any text directly on this page for customization.</i></p>
+</footer>
+
+</body>
+</html>

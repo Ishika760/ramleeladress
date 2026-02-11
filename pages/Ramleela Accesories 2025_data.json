@@ -1,0 +1,2639 @@
+[
+    {
+        "page": 1,
+        "items": []
+    },
+    {
+        "page": 2,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.394163531692129,
+                        "x0": 385.7834887256873,
+                        "content": "Face(Rubber)",
+                        "size": 64.65514810307354,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 78.39562853643758,
+                        "x0": 385.7834887256873,
+                        "content": "190",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 305.2986630821441,
+                        "x0": 84.23626929015529,
+                        "content": "Jatau",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 332.58483554522024,
+                        "x0": 533.574169767742,
+                        "content": "Jamvant",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 731.6797317162655,
+                        "x0": 128.57573224267762,
+                        "content": "Heeran",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 731.6797317162655,
+                        "x0": 556.45293681446,
+                        "content": "Tiger",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.394163531692129,
+                        "x0": 385.7834887256873,
+                        "content": "Face( Rubber)",
+                        "size": 64.65514810307354,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 78.39562853643758,
+                        "x0": 385.7834887256873,
+                        "content": "190",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 108.19087129496904,
+                        "x0": 15.3072905621962,
+                        "content": "Hanuman ji ",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 332.58483554522024,
+                        "x0": 703.725666678096,
+                        "content": "Crow",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 672.5042061819124,
+                        "x0": 660.6424044732321,
+                        "content": "Kaali",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 731.6797317162655,
+                        "x0": 44.5694357429401,
+                        "content": "Ganesh Ji",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 736.2814803645259,
+                        "x0": 660.6424044732321,
+                        "content": "Mata",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 4,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 9.383560242769022,
+                        "x0": 84.23626929015529,
+                        "width": 663.283628363181,
+                        "height": 819.3503658604,
+                        "path": "assets/Ramleela_Accesories_2025/page_4_img_1_84_9.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.394163531692129,
+                        "x0": 385.7834887256873,
+                        "content": "FFaaccee( Rubber)",
+                        "size": 64.65514810307354,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 78.39562853643758,
+                        "x0": 385.7834887256873,
+                        "content": "190",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 397.43194244325724,
+                        "x0": 83.346764527218,
+                        "content": "Lion",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 404.07280936655445,
+                        "x0": 613.9428944190449,
+                        "content": "Bear",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 731.6797317162655,
+                        "x0": 147.9644026348163,
+                        "content": "Joker",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 731.6797317162655,
+                        "x0": 556.45293681446,
+                        "content": "Cow",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.750741352055798,
+                        "x0": 33.92950058627075,
+                        "content": "Hanuman ji face( Fiber)",
+                        "size": 63.799783058474645,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 103.29953229877492,
+                        "x0": 341.1843889839832,
+                        "content": "55",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 91.19984483375697,
+                        "x0": -28.07783883009006,
+                        "width": 877.875371421858,
+                        "height": 658.031396582024,
+                        "path": "assets/Ramleela_Accesories_2025/page_6_img_1_-28_91.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.750741352055798,
+                        "x0": 90.6466666230554,
+                        "content": "Ganeshji face( Fiber)",
+                        "size": 63.799783058474645,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 103.29953229877492,
+                        "x0": 161.55763966843142,
+                        "content": "Small Big",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 636.1359516972565,
+                        "x0": 213.99236468365112,
+                        "content": "225",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 707.0452207427035,
+                        "x0": 612.38709448387,
+                        "content": "275",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -112.15716269303402,
+                        "x0": -38.93715293761856,
+                        "width": 897.383746609009,
+                        "height": 945.404264608154,
+                        "path": "assets/Ramleela_Accesories_2025/page_7_img_1_-38_-112.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.898909982548844,
+                        "x0": 109.3900298420819,
+                        "content": "Hanuman ji mouth",
+                        "size": 63.799783058474645,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 136.82536610186514,
+                        "x0": 109.3900298420819,
+                        "content": "45 50",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 8,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 118.68154768868612,
+                        "x0": 0.0033839998590110554,
+                        "width": 842.610324891235,
+                        "height": 587.5012795207789,
+                        "path": "assets/Ramleela_Accesories_2025/page_8_img_1_0_118.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 5.348087793710192,
+                        "x0": 189.0118289245068,
+                        "content": "Ravana face",
+                        "size": 67.02616506220488,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 80.05424655746685,
+                        "x0": 362.7741352844104,
+                        "content": "210",
+                        "size": 43.91627993095403,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 9,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.912963671620332,
+                        "x0": 196.5607982099664,
+                        "content": "Narsingh Face",
+                        "size": 60.783495401036134,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 341.66910736378657,
+                        "content": "500",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 10,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.70862126874215,
+                        "x0": 187.8578249725903,
+                        "content": "Ganesh Soond",
+                        "size": 61.22618171466718,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 345.0733152219446,
+                        "content": "450",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 11,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 5.199375108616891,
+                        "x0": 258.8689405427937,
+                        "content": "Kaali Face",
+                        "size": 62.854377258184854,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 86.13331958203366,
+                        "x0": 356.32858765309993,
+                        "content": "1200",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 12,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 147.43277849071796,
+                        "x0": 97.5364567359808,
+                        "width": 685.7932994252781,
+                        "height": 685.7932994252781,
+                        "path": "assets/Ramleela_Accesories_2025/page_12_img_1_97_147.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.68455455351068,
+                        "x0": 237.84656639535098,
+                        "content": "Peetal Mukut",
+                        "size": 65.93819604513237,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 95.29949702410977,
+                        "x0": 393.4443611307138,
+                        "content": "1500",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 13,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 5.569650385545401,
+                        "x0": 214.61999985462464,
+                        "content": "Bhoot Face",
+                        "size": 69.37466714290781,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.11492705746673,
+                        "x0": 363.0780187837486,
+                        "content": "190",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 14,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.281822209836946,
+                        "x0": 290.2758863051709,
+                        "content": "Bhoot Face",
+                        "size": 62.17909297464712,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 75.42510786020932,
+                        "x0": 404.66976713875897,
+                        "content": "240",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 15,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.258750141076803,
+                        "x0": 337.6033146954446,
+                        "content": "Mund",
+                        "size": 60.46835613256144,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 82.75538224278114,
+                        "x0": 380.1605766959753,
+                        "content": "250",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 16,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.258753741076703,
+                        "x0": 243.4850129606657,
+                        "content": "Plastic Mund",
+                        "size": 60.46835613256144,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 88.29469148757914,
+                        "x0": 378.81241661689864,
+                        "content": "190",
+                        "size": 60.46835613256144,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 17,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 18.18888874219067,
+                        "x0": 508.4673014863616,
+                        "content": "Mundmala",
+                        "size": 58.29992956067349,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.40205462150311,
+                        "x0": 621.1795650877671,
+                        "content": "125",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 18,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.8450117132202877,
+                        "x0": 499.179483200854,
+                        "content": "Mundmala",
+                        "size": 58.47250561236558,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 71.09125284078652,
+                        "x0": 586.212167574492,
+                        "content": "180",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 19,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 13.105922194587151,
+                        "x0": 511.9024928714786,
+                        "content": "Mundmala",
+                        "size": 58.88518434333332,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 89.73288149445204,
+                        "x0": 621.7307106183027,
+                        "content": "240",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 20,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 13.105922194587151,
+                        "x0": 515.5016883078871,
+                        "content": "PanjaMala",
+                        "size": 58.88518434333332,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 89.73288149445204,
+                        "x0": 624.6733752910667,
+                        "content": "325",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 21,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 13.163171431363594,
+                        "x0": 487.911891670337,
+                        "content": "Mundmala",
+                        "size": 58.47250561236558,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 72.40506318604446,
+                        "x0": 630.286797738049,
+                        "content": "350",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 22,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 12.88640335718651,
+                        "x0": 258.2611716391174,
+                        "content": "Mundmala",
+                        "size": 62.68931116810802,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 380.8486065313074,
+                        "content": "1000",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 23,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -8.789983000000007,
+                        "x0": 251.0470503397058,
+                        "width": 618.264406238982,
+                        "height": 824.602645641555,
+                        "path": "assets/Ramleela_Accesories_2025/page_23_img_2_251_-8.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 29.510463404147913,
+                        "x0": 40.440111114995304,
+                        "width": 281.3703386762354,
+                        "height": 765.327280111362,
+                        "path": "assets/Ramleela_Accesories_2025/page_23_img_1_40_29.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 11.853514187243945,
+                        "x0": 111.3530737602884,
+                        "content": "Hand Leg",
+                        "size": 52.03475102364348,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 773.8350099597955,
+                        "x0": 496.02741933219,
+                        "content": "190",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 779.9933377031984,
+                        "x0": 138.7319030195038,
+                        "content": "190",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 24,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.686568456956138,
+                        "x0": 344.9835413735602,
+                        "content": "Chester",
+                        "size": 58.525028073457065,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 80.80920689187178,
+                        "x0": 415.06820039261595,
+                        "content": "180",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 25,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.9787378402767217,
+                        "x0": 276.73690685304507,
+                        "content": "Chester",
+                        "size": 58.187385931688254,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 80.11233185690821,
+                        "x0": 345.7195320902689,
+                        "content": "250",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 26,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 13.885756638373778,
+                        "x0": 255.50076135413448,
+                        "content": "Raja Rob",
+                        "size": 62.20160185050827,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 336.64870597297,
+                        "content": "180",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 27,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.302985245290415,
+                        "x0": 260.4901107613699,
+                        "content": "Raja Rob",
+                        "size": 59.83808960074623,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 82.10432008590874,
+                        "x0": 342.47438987148314,
+                        "content": "300",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 28,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.975491386196154,
+                        "x0": 226.1271289780359,
+                        "content": "Talwar Plastic",
+                        "size": 61.796427828909714,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 75.07771507468397,
+                        "x0": 400.8438408981726,
+                        "content": "75",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 29,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.945662015983771,
+                        "x0": 232.3501012602454,
+                        "content": "Talwar Plastic",
+                        "size": 62.56925682718668,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.42833830740801,
+                        "x0": 414.05671761411554,
+                        "content": "80",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 30,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 10.82555218268601,
+                        "x0": 155.411537524519,
+                        "width": 556.738104802578,
+                        "height": 822.351709735344,
+                        "path": "assets/Ramleela_Accesories_2025/page_30_img_1_155_10.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.4931798681705,
+                        "x0": 184.86914163861877,
+                        "content": "Talwar Plastic",
+                        "size": 62.56925682718668,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 734.3319236057574,
+                        "x0": 390.2164589409802,
+                        "content": "90",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 31,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -65.72827662757095,
+                        "x0": 136.0300431320813,
+                        "width": 570.2438402398388,
+                        "height": 842.6103728912329,
+                        "path": "assets/Ramleela_Accesories_2025/page_31_img_1_136_-65.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.4931762681706005,
+                        "x0": 280.4412628034469,
+                        "content": "Shastra",
+                        "size": 62.56925682718668,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 734.3319236057574,
+                        "x0": 377.32029707832027,
+                        "content": "100",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 32,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.4931762681706005,
+                        "x0": 340.43176508307204,
+                        "content": "Axe",
+                        "size": 62.56925682718668,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 734.3319236057574,
+                        "x0": 378.6333538236096,
+                        "content": "140",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 33,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 41.483918905254086,
+                        "x0": 162.2234980406873,
+                        "width": 517.721402428274,
+                        "height": 777.3324396111469,
+                        "path": "assets/Ramleela_Accesories_2025/page_33_img_1_162_41.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.4931762681706005,
+                        "x0": 264.5203917850665,
+                        "content": "Hammer",
+                        "size": 62.56925682718668,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 734.3319236057574,
+                        "x0": 376.19482912521477,
+                        "content": "200",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 34,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 18.042325436897045,
+                        "x0": 533.291281779529,
+                        "content": "Talwar",
+                        "size": 58.36746144050335,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 83.15748436046442,
+                        "x0": 611.3274124731485,
+                        "content": "28\"",
+                        "size": 39.02418709039034,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 137.18058719750172,
+                        "x0": 608.3847478003845,
+                        "content": "210",
+                        "size": 39.02418709039034,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 35,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.91416263577139,
+                        "x0": 605.9703827512329,
+                        "content": "Talwar",
+                        "size": 63.184519942830775,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 75.6484752386184,
+                        "x0": 679.148419702148,
+                        "content": "33\"",
+                        "size": 42.29558684584288,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 134.17350331207547,
+                        "x0": 679.148419702148,
+                        "content": "225",
+                        "size": 42.29558684584288,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 36,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.392166324217328,
+                        "x0": 252.9526646603052,
+                        "content": "Dhanush",
+                        "size": 67.77648593494143,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 37.13749530059624,
+                        "x0": 637.8863684669002,
+                        "content": "48\"",
+                        "size": 41.34267858714645,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.16188162858009,
+                        "x0": 633.6540897941202,
+                        "content": "290",
+                        "size": 41.34267858714645,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 125.810136960833,
+                        "x0": 447.69893001400214,
+                        "content": "34\"",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 145.46705054179495,
+                        "x0": 109.26256345901801,
+                        "content": "22\"",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 145.46705054179495,
+                        "x0": 277.08551999464447,
+                        "content": "28\"",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 189.5874111434465,
+                        "x0": 455.31937637773353,
+                        "content": "90",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 209.24432472440844,
+                        "x0": 117.80918715003367,
+                        "content": "70",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 209.24432472440844,
+                        "x0": 284.47149108564565,
+                        "content": "80",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 37,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 109.98042005123295,
+                        "x0": -1.706032128915325e-13,
+                        "width": 842.610324891235,
+                        "height": 604.758670801721,
+                        "path": "assets/Ramleela_Accesories_2025/page_37_img_1_0_109.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.392166324217328,
+                        "x0": 252.9526646603052,
+                        "content": "Dhanush",
+                        "size": 67.77648593494143,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 60.53196608075689,
+                        "x0": 590.761199384949,
+                        "content": "Large",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 142.28826507424424,
+                        "x0": 289.23932768186086,
+                        "content": "Medium",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 215.80932681086654,
+                        "x0": 84.224996490625,
+                        "content": "Small",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 659.1841587369145,
+                        "x0": 652.643948806501,
+                        "content": "120",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 672.4998861820925,
+                        "x0": 103.27845169673101,
+                        "content": "100 110",
+                        "size": 46.017180625579215,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 38,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 106.894404179817,
+                        "x0": -63.0367509734686,
+                        "width": 968.6642236389889,
+                        "height": 726.310577737058,
+                        "path": "assets/Ramleela_Accesories_2025/page_38_img_1_-63_106.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 11.169346317491204,
+                        "x0": 155.6795743133508,
+                        "content": "Dhanush Folding",
+                        "size": 64.61013110167198,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 83.42062739439814,
+                        "x0": 494.65725938928,
+                        "content": "Small ",
+                        "size": 41.335176879060896,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 791.0154092439454,
+                        "x0": 411.5684490255639,
+                        "content": "75",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 39,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 97.63945256544002,
+                        "x0": 167.8003778083173,
+                        "width": 529.726489928062,
+                        "height": 706.051914581169,
+                        "path": "assets/Ramleela_Accesories_2025/page_39_img_1_167_97.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 11.169346317491204,
+                        "x0": 155.6795743133508,
+                        "content": "Dhanush Folding",
+                        "size": 64.61013110167198,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 83.42062739439814,
+                        "x0": 378.45732691581907,
+                        "content": "Big",
+                        "size": 41.335176879060896,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 761.8469624592975,
+                        "x0": 368.4406478483057,
+                        "content": "150",
+                        "size": 46.0171806255792,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 40,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.20656335908427,
+                        "x0": 347.6686679138049,
+                        "content": "Tarkash",
+                        "size": 58.08984046662806,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 225.89684178763122,
+                        "content": "90 60",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 41,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.61051809110279,
+                        "x0": 184.4633707140259,
+                        "content": "Hanuman ji tail",
+                        "size": 66.53845499428428,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 78.23146448849661,
+                        "x0": 595.5326631861379,
+                        "content": "42\"",
+                        "size": 37.76365102547629,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 80.89114341159132,
+                        "x0": 180.4019012832538,
+                        "content": "24\"",
+                        "size": 36.330535157265786,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.04615829411182,
+                        "x0": 365.73331104148644,
+                        "content": "34\"",
+                        "size": 34.90492699970798,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 130.00360470732403,
+                        "x0": 595.5326631861379,
+                        "content": "720",
+                        "size": 37.76365102547629,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 131.1626418849454,
+                        "x0": 180.4019012832538,
+                        "content": "540",
+                        "size": 36.330535157265786,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 133.06669414925602,
+                        "x0": 359.28524104140604,
+                        "content": "600",
+                        "size": 34.90492699970798,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 42,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 98.56470052688803,
+                        "x0": 384.0564967976453,
+                        "width": 321.8876529880139,
+                        "height": 696.29781098759,
+                        "path": "assets/Ramleela_Accesories_2025/page_42_img_2_384_98.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.29970443996001,
+                        "x0": 304.1132969286121,
+                        "content": "Folding Gada Plastic",
+                        "size": 50.15894884180193,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 67.7187945813057,
+                        "x0": 179.46380132234128,
+                        "content": "Small  Big",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 779.8679377084235,
+                        "x0": 215.6465094147284,
+                        "content": "85",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 791.2702892333255,
+                        "x0": 481.284267946488,
+                        "content": "150",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 43,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.2636511682172795,
+                        "x0": 294.9766581093054,
+                        "content": "Gada",
+                        "size": 61.331226636850374,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 47.843607489438455,
+                        "x0": 562.41501656604,
+                        "content": "L",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 59.46005652541976,
+                        "x0": 183.1987723667175,
+                        "content": "S M",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 791.2702892333255,
+                        "x0": 120.4323357819858,
+                        "content": "180 225 350",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 44,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 12.482917721916465,
+                        "x0": 248.7088672371301,
+                        "content": "Peetal Gada",
+                        "size": 63.972359110166735,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 477.890596087891,
+                        "content": "1250/kg",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 45,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 98.76411651857893,
+                        "x0": 136.845522298103,
+                        "width": 527.4755540218509,
+                        "height": 703.8009066749611,
+                        "path": "assets/Ramleela_Accesories_2025/page_45_img_1_136_98.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 19.145143821585975,
+                        "x0": 226.9352833443628,
+                        "content": "Trishul Plastic",
+                        "size": 56.379109627109415,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 83.55553915984467,
+                        "x0": 511.604810683132,
+                        "content": "Small ",
+                        "size": 43.79622859131621,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 788.0288253683864,
+                        "x0": 425.066886288879,
+                        "content": "75",
+                        "size": 46.01718062557921,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 46,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.9530762328619176,
+                        "x0": 275.7054077122742,
+                        "content": "Trishul Fal",
+                        "size": 61.69138290672652,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 111.3131871648726,
+                        "x0": 209.68402526579024,
+                        "content": "Single",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 111.3131871648726,
+                        "x0": 480.29307120116283,
+                        "content": "Double",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 175.0904613474861,
+                        "x0": 250.3068662662968,
+                        "content": "45",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 175.0904613474861,
+                        "x0": 521.021426074398,
+                        "content": "120",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 47,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.080622308458032,
+                        "x0": 316.0238844323376,
+                        "content": "Bhale",
+                        "size": 62.41169019423273,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 76.02559983518881,
+                        "x0": 518.3324260966897,
+                        "content": "Big",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.39786104467782,
+                        "x0": 156.00662346109874,
+                        "content": "Small",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 139.8028740178023,
+                        "x0": 512.9629423511682,
+                        "content": "120",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 149.17513522729132,
+                        "x0": 190.70896382516784,
+                        "content": "45",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 48,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 35.87135113911097,
+                        "x0": 153.8652919889459,
+                        "width": 375.1604435683142,
+                        "height": 778.833063548621,
+                        "path": "assets/Ramleela_Accesories_2025/page_48_img_1_153_35.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 15.513722301379289,
+                        "x0": 425.01505315991363,
+                        "content": "Folding Trishul",
+                        "size": 52.87511265207115,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 86.39073135530816,
+                        "x0": 580.7769805861876,
+                        "content": "Big",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 150.16800553792166,
+                        "x0": 558.3259694706669,
+                        "content": "1050",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 49,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 9.124801332780521,
+                        "x0": 583.4085120741859,
+                        "content": "Farsa",
+                        "size": 67.0561786474351,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 95.28051331290067,
+                        "x0": 629.377389292941,
+                        "content": "180",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 50,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 6.458979186295892,
+                        "x0": 499.654443181064,
+                        "content": "Khanda",
+                        "size": 69.80235004036774,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.0757330580999,
+                        "x0": 608.9798866258369,
+                        "content": "270",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 51,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.6289786724244095,
+                        "x0": 355.06674349692673,
+                        "content": "Chakra",
+                        "size": 63.51466337779732,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 86.7800869390851,
+                        "x0": 421.9508150432153,
+                        "content": "150",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 52,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.615462788568948,
+                        "x0": 209.12407417687155,
+                        "content": "Rudrakshmala",
+                        "size": 62.081547509586926,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 84.75331335153396,
+                        "x0": 382.1316541608471,
+                        "content": "396",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 53,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.446037590478454,
+                        "x0": 96.43836883523447,
+                        "content": "Rudraksh Bajuband",
+                        "size": 68.11412807671036,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 95.34975287801569,
+                        "x0": 374.1743293841523,
+                        "content": "300",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 54,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 139.83061080747495,
+                        "x0": 0.0,
+                        "width": 842.610324891235,
+                        "height": 497.462667272388,
+                        "path": "assets/Ramleela_Accesories_2025/page_54_img_1_0_139.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 6.64647289600839,
+                        "x0": 300.5469049075868,
+                        "content": "Kundal",
+                        "size": 71.60312088525654,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 96.76733600294972,
+                        "x0": 385.0400694359131,
+                        "content": "132",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 55,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 16.594969238352405,
+                        "x0": 185.58735986519304,
+                        "content": "Golden Kundal",
+                        "size": 59.43291557914745,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.35951251127563,
+                        "x0": 361.42036688556743,
+                        "content": "132",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 56,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.720019311625606,
+                        "x0": 296.5310325206648,
+                        "content": "Kundal",
+                        "size": 65.555536901962,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 95.06440980990499,
+                        "x0": 384.6937350672187,
+                        "content": "72",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 57,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 163.39512982561996,
+                        "x0": 0.0,
+                        "width": 846.3619567349169,
+                        "height": 634.771437551189,
+                        "path": "assets/Ramleela_Accesories_2025/page_57_img_1_0_163.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.8247984752005095,
+                        "x0": 205.05604798762266,
+                        "content": "Ram Mala set",
+                        "size": 68.41425717612583,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.94071441505889,
+                        "x0": 385.0978861535041,
+                        "content": "140",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 58,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 7.032905832155393,
+                        "x0": 326.4470587001636,
+                        "content": "Teer Pkt",
+                        "size": 60.730972939944536,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.71521622345472,
+                        "x0": 406.16865142843045,
+                        "content": "250",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 59,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.715733434161166,
+                        "x0": 188.43182334867367,
+                        "content": "Golden Kanthe",
+                        "size": 62.449208488832255,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 76.41853021881673,
+                        "x0": 380.1860865589124,
+                        "content": "210",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 60,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 15.778611206382834,
+                        "x0": 275.9777525009265,
+                        "content": "Khadtal",
+                        "size": 60.55839688825256,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.39786104467782,
+                        "x0": 85.49071199926185,
+                        "content": "Small",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 85.39786104467782,
+                        "x0": 596.8997751291749,
+                        "content": "Big",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 149.17513522729132,
+                        "x0": 120.41580387242462,
+                        "content": "85",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 149.17513522729132,
+                        "x0": 596.8997751291749,
+                        "content": "115",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 61,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 5.4699238852768985,
+                        "x0": 300.5582682767383,
+                        "content": "Handmala",
+                        "size": 67.75397705908017,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 81.17035883140579,
+                        "x0": 515.357283411029,
+                        "content": "Small",
+                        "size": 42.24306438475139,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 139.69538690486286,
+                        "x0": 533.1422328476144,
+                        "content": "350",
+                        "size": 42.24306438475139,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 62,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 3.7260558139096247,
+                        "x0": 282.241452239939,
+                        "content": "Handmala",
+                        "size": 58.48001032173465,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 24.030874810187356,
+                        "x0": 618.071373713775,
+                        "content": "Big",
+                        "size": 40.104651398093665,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 79.55461939269787,
+                        "x0": 608.1296221500146,
+                        "content": "600",
+                        "size": 40.104651398093665,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 63,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.667507153420388,
+                        "x0": 310.0105411070186,
+                        "content": "Cobra",
+                        "size": 63.469639623507874,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 86.78678221880614,
+                        "x0": 365.6632470895307,
+                        "content": "275",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 64,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 5.10903040749497,
+                        "x0": 256.1586782260963,
+                        "content": "Sadhu teki",
+                        "size": 71.18294344748654,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.93281493538802,
+                        "x0": 396.43351013693643,
+                        "content": "190",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 65,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.648398830914516,
+                        "x0": 362.93471207771967,
+                        "content": "Veena",
+                        "size": 63.49215450193617,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 84.28695823558712,
+                        "x0": 283.60937495656725,
+                        "content": "Big Small",
+                        "size": 40.29973332436339,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 139.81070281809764,
+                        "x0": 276.7158019382995,
+                        "content": "350 165",
+                        "size": 40.29973332436339,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 66,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 23.517961264473342,
+                        "x0": 306.4858108027573,
+                        "content": "Khadau",
+                        "size": 53.1677377924384,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.6018654371776,
+                        "x0": 379.2200404036643,
+                        "content": "75",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 67,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.059637285049462,
+                        "x0": 275.24828119307114,
+                        "content": "Bhuja set",
+                        "size": 61.29371359449692,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 89.89014377749936,
+                        "x0": 370.07008148516263,
+                        "content": "390",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 68,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 133.97199505158403,
+                        "x0": -0.0001679999929820042,
+                        "width": 842.610252891238,
+                        "height": 556.738032802581,
+                        "path": "assets/Ramleela_Accesories_2025/page_68_img_1_0_133.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 8.169867098891359,
+                        "x0": 292.397771816759,
+                        "content": "Damru",
+                        "size": 68.60934210367918,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 124.40929061920156,
+                        "x0": 92.78702406949884,
+                        "content": "S",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 124.40929061920156,
+                        "x0": 370.4174435806892,
+                        "content": "M",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 124.40929061920156,
+                        "x0": 640.8052349859057,
+                        "content": "L",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 188.18656480181505,
+                        "x0": 78.74195523296007,
+                        "content": "45",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 188.18656480181505,
+                        "x0": 360.63982470784,
+                        "content": "60",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 188.18656480181505,
+                        "x0": 623.2078657675045,
+                        "content": "90",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 69,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 205.824272057739,
+                        "x0": 0.0,
+                        "width": 842.6103728912329,
+                        "height": 567.242544364893,
+                        "path": "assets/Ramleela_Accesories_2025/page_69_img_1_0_205.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 18.77126854534947,
+                        "x0": 24.32990370625397,
+                        "content": "Beard Black(Bandhne wali)",
+                        "size": 57.65465285979906,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 156.6003164779088,
+                        "x0": 116.22836031852646,
+                        "content": "Small",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 156.6003164779088,
+                        "x0": 575.1281834954498,
+                        "content": "Heavy",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 220.3775906605223,
+                        "x0": 150.93070068259556,
+                        "content": "45",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 220.3775906605223,
+                        "x0": 620.9212042596571,
+                        "content": "75",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 70,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 199.76916831003496,
+                        "x0": 0.0,
+                        "width": 842.6103728912329,
+                        "height": 549.234889115212,
+                        "path": "assets/Ramleela_Accesories_2025/page_70_img_1_0_199.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 21.078293279509012,
+                        "x0": 78.2929791377924,
+                        "content": "Beard White(Bandhne wali)",
+                        "size": 54.35324552168322,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 91.37040959582168,
+                        "x0": 85.49071199926185,
+                        "content": "Small",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 91.37040959582168,
+                        "x0": 596.9910305844978,
+                        "content": "Heavy",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 155.14768377843518,
+                        "x0": 120.19305236333093,
+                        "content": "45",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 155.14768377843518,
+                        "x0": 642.7840513487051,
+                        "content": "75",
+                        "size": 46.01718062557927,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 71,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 4.881867149283266,
+                        "x0": 195.1832150673657,
+                        "content": "Beard Orange",
+                        "size": 63.22203823743007,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 76.67139180828076,
+                        "x0": 365.77015115957636,
+                        "content": "70",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 72,
+        "items": [
+            {
+                "images": [],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 10.375097757778008,
+                        "x0": 287.6904672181467,
+                        "content": "Pancake",
+                        "size": 66.44841498891412,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 19.91599664393334,
+                        "x0": 558.9267607113841,
+                        "content": "(For Makeup)",
+                        "size": 39.5193988663965,
+                        "is_bold": true
+                    },
+                    {
+                        "type": "text",
+                        "top": 94.60046009323628,
+                        "x0": 307.65603669112295,
+                        "content": "500(6pcs)",
+                        "size": 46.01718062557916,
+                        "is_bold": true
+                    }
+                ],
+                "rows": []
+            }
+        ]
+    }
+]

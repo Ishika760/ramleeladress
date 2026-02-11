@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds Dresses Collection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+        :root {
+            --primary: #2e7d32;
+            --secondary: #f9a825;
+            --bg: #f1f8e9;
+            --card-bg: #ffffff;
+            --text: #333;
+        }
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 40px 20px;
+            color: var(--text);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: var(--primary);
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.2em;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .item-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            width: 100%;
+            height: 300px;
+            background: #fff;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .item-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .details {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4em;
+            color: var(--primary);
+            margin: 0 0 10px 0;
+        }
+        .art-no {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        .specs-table th {
+            text-align: left;
+            padding: 6px;
+            border-bottom: 2px solid #eee;
+            color: #888;
+        }
+        .specs-table td {
+            padding: 6px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .price {
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        .nav-back {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Birds Dresses Collection</h1>
+        <div class="subtitle">Nature Inspired Outfits for Kids</div>
+    </header>
+
+    <div class="catalog">
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_1_19_106.png" alt="BUTTERFLY" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BUTTERFLY</h2>
+                <div class="art-no">9013</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_5_301_107.png" alt="COCK WHITE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">COCK WHITE</h2>
+                <div class="art-no">9001</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_4_19_252.png" alt="COCK YELLOW" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">COCK YELLOW</h2>
+                <div class="art-no">9008</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_3_301_252.png" alt="CROW" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">CROW</h2>
+                <div class="art-no">9002</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_2_19_399.png" alt="DUCK" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">DUCK</h2>
+                <div class="art-no">9003</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_11_301_399.png" alt="EGALE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">EGALE</h2>
+                <div class="art-no">9012</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_10_19_547.png" alt="HONEYBEE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">HONEYBEE</h2>
+                <div class="art-no">9014</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_14_300_547.png" alt="KOYAL" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">KOYAL</h2>
+                <div class="art-no">9011</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_15_18_693.png" alt="MAINA" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">MAINA</h2>
+                <div class="art-no">9010</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_1_img_16_300_692.png" alt="OWL" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">OWL</h2>
+                <div class="art-no">9004</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_2_img_1_18_48.png" alt="PARROT" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">PARROT</h2>
+                <div class="art-no">9005</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_2_img_2_300_47.png" alt="PEACOCK" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">PEACOCK</h2>
+                <div class="art-no">9006</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_2_img_3_18_194.png" alt="PIGEON" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">PIGEON</h2>
+                <div class="art-no">9007</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_2_img_4_300_194.png" alt="SWAN" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">SWAN</h2>
+                <div class="art-no">9009</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BIRDS_DRESSES/page_2_img_5_18_341.png" alt="YELLOW BIRD" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">YELLOW BIRD</h2>
+                <div class="art-no">9020</div>
+                
+    <table class="specs-table">
+        <thead><tr><th>Size</th><th>Age</th><th>Rate</th></tr></thead>
+        <tbody><tr><td>32"</td><td>3-4 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>36"</td><td>5-6 YEAR</td><td class='price'>₹275.00</td></tr><tr><td>40"</td><td>7-8 YEAR</td><td class='price'>₹275.00</td></tr></tbody>
+    </table>
+    
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-back">
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>

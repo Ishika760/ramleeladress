@@ -1,0 +1,867 @@
+[
+    {
+        "page": 1,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -8.159986990000107,
+                        "x0": 95.27999603,
+                        "width": 600.71997497,
+                        "height": 311.03998703999997,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_7_95_-8.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": -7.919987000000106,
+                        "x0": 115.4312951903625,
+                        "width": 113.24998808125031,
+                        "height": 70.49999706250003,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_8_115_-7.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": -7.919987000000106,
+                        "x0": 576.466079980579,
+                        "width": 113.24998808125031,
+                        "height": 70.49999706250003,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_6_576_-7.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 15.067151372202,
+                        "width": 109.4999954375,
+                        "height": 149.24999378124994,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_5_15_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_1_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 127.87699934179193,
+                        "x0": 635.314725528552,
+                        "width": 173.24999278124994,
+                        "height": 168.74999296874995,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_10_635_127.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 177.81655726097688,
+                        "x0": -13.529797116258429,
+                        "width": 257.99998925,
+                        "height": 266.999988875,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_2_-13_177.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 427.7531294012086,
+                        "x0": 111.95868402486443,
+                        "content": "R a m l e e l a",
+                        "size": 105.9447248849803,
+                        "is_bold": false
+                    }
+                ],
+                "rows": []
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 439.04133037661086,
+                        "x0": 703.823634674014,
+                        "width": 50.24999790624997,
+                        "height": 126.74999471875003,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_4_703_439.png"
+                    }
+                ],
+                "texts": [
+                    {
+                        "type": "text",
+                        "top": 472.39009819865146,
+                        "x0": 114.49930951900504,
+                        "content": "R a m l e e l a",
+                        "size": 105.94472488498027,
+                        "is_bold": false
+                    },
+                    {
+                        "type": "text",
+                        "top": 513.2677293240681,
+                        "x0": 176.39939667300644,
+                        "content": "D r e s s e s",
+                        "size": 89.1080967413385,
+                        "is_bold": false
+                    },
+                    {
+                        "type": "text",
+                        "top": 550.8110405159674,
+                        "x0": 178.53626778397012,
+                        "content": "D r e s s e s",
+                        "size": 89.10809674133847,
+                        "is_bold": false
+                    }
+                ],
+                "rows": []
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 565.7146210985569,
+                        "x0": 656.362484651562,
+                        "width": 153.74999359375,
+                        "height": 236.24999015625,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_3_656_565.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 654.6639693923338,
+                        "x0": 329.2735710802673,
+                        "width": 129.00000902499937,
+                        "height": 132.74999446875,
+                        "path": "assets/Ramleela_Dresses_2025/page_1_img_11_329_654.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 2,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_2_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Barahbandi\nFor Ram ji/Laxmanji/Sadhu\n20*-165\n24*-175\n28*-250\n32*-375\n36*-400\n40*-400",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 102.08021641665789,
+                        "x0": 1.282499970562499e-13,
+                        "width": 560.2499766562499,
+                        "height": 699.749922843752,
+                        "path": "assets/Ramleela_Dresses_2025/page_2_img_1_0_102.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_3_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Barahbandi\nFor R avana sadhu/Ravana\nsena/Rakshas sena\n20*-165\n24*-175\n28*-250\n32*-375\n36*-400\n40*-400",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 4,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_4_img_2_613_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 39.715499015188016,
+                        "x0": 34.498497122562554,
+                        "width": 428.250006156249,
+                        "height": 761.9999682499999,
+                        "path": "assets/Ramleela_Dresses_2025/page_4_img_1_34_39.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Saree\nFor Seeta Vanwsasi\n20*-250\n24*-300\n28*-350\n32*-400\n36*-450\n40*-500",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_5_img_2_613_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 89.06168095909686,
+                        "x0": -22.865997607250062,
+                        "width": 656.9999726249999,
+                        "height": 656.9999726249999,
+                        "path": "assets/Ramleela_Dresses_2025/page_5_img_1_-22_89.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Dhoti patka\n20*-100\n24*-120\n28*-140\n32*-160\n36*-180\n40*-200",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_6_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Chester(3-8 Yrs)\nFor Ramji/Laxmanji/Ravana/Raja\nRate-180",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 109.13619212265883,
+                        "x0": 80.999996625,
+                        "width": 604.499926812502,
+                        "height": 604.499926812502,
+                        "path": "assets/Ramleela_Dresses_2025/page_6_img_1_80_109.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_7_img_2_613_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 85.24752911801988,
+                        "x0": 80.999996625,
+                        "width": 635.9999735,
+                        "height": 635.9999735,
+                        "path": "assets/Ramleela_Dresses_2025/page_7_img_1_80_85.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Chester(10-12Yrs)\nFor Ramji/Laxmanji/Ravana/Raja\nRate-275",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 8,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_8_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Chester\nFor All Character\nRate-250",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 109.1362641226558,
+                        "x0": 117.0562463226562,
+                        "width": 578.24997590625,
+                        "height": 578.24997590625,
+                        "path": "assets/Ramleela_Dresses_2025/page_8_img_1_117_109.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 9,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_9_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Raja Coat\nFor All Character\n20*-250\n24*-250\n28*-350\n32*-350",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 109.13626412265592,
+                        "x0": 0.0,
+                        "width": 576.7499759687499,
+                        "height": 576.7499759687499,
+                        "path": "assets/Ramleela_Dresses_2025/page_9_img_1_0_109.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 10,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_10_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Raja Dress\nFor All Character\nSizes-\n20\"-24\"-28\"\nRate-225",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 212.81150780285384,
+                        "x0": -0.0046799998049209535,
+                        "width": 809.9999662499999,
+                        "height": 442.4999815625,
+                        "path": "assets/Ramleela_Dresses_2025/page_10_img_1_0_212.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 11,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_11_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Raja Dress\nFor All Character\nSize-Adult\nRate-325",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 119.16699170470895,
+                        "x0": 15.535727352678009,
+                        "width": 815.999966,
+                        "height": 555.74997684375,
+                        "path": "assets/Ramleela_Dresses_2025/page_11_img_1_15_119.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 12,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_12_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Hanuman ji Dress\nFor Hanuman ji/Sugreev/Bali\n20*-285\n24*-300\n28*-325\n32*-350\n36*-700\n40*-700",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 13,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_13_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Vanara Sena Dress\n20*-225\n24*-225\n28*-225\n32*-225",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 14,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_14_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "White Jumpsuit\nFor jatau\n32*-190\n36*-220\n40*-250\n44*-280\n48*-350\n52*-375\n56*-420",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "420"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 15,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_15_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Black Jumpsuit\nFor Jamvant\n32*-190\n36*-220\n40*-250\n44*-280\n48*-350\n52*-375\n56*-420",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "*-420"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 16,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_16_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Golden Jumpsuit\nFor Maarich/Heeran\n32*-190\n36*-220\n40*-250\n44*-280\n48*-350\n52*-375\n56*-420",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "*-420"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 17,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_17_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Bhoot Dress\nFor Rakshas/For Bhoot\n24*-165\n28*-165\n32*-165\n40*-400",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 18,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_18_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Lehenga\nFor RaniSeetaji/Rani Character\n20*-250\n24*-250\n28*-350\n32*-350\n36*-650\n40*-650",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 98.47419256690887,
+                        "x0": 0.0,
+                        "width": 546.74997721875,
+                        "height": 546.74997721875,
+                        "path": "assets/Ramleela_Dresses_2025/page_18_img_1_0_98.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 19,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_19_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Lehenga\nFor Surphanaka/Trijata/lady Rakshas\n20*-250\n24*-250\n28*-350\n32*-350\n36*-650\n40*-650",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": 107.3212641982808,
+                        "x0": 0.0,
+                        "width": 548.24997715625,
+                        "height": 548.24997715625,
+                        "path": "assets/Ramleela_Dresses_2025/page_19_img_1_0_107.png"
+                    }
+                ],
+                "texts": [],
+                "rows": []
+            }
+        ]
+    },
+    {
+        "page": 20,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_20_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Mrigshala\nFor BhagwanParhshuram/Shankarji\n20*-90\n24*-90\n28*-175\n32*-225\n36*-300\n40*-300",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 21,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_21_img_2_613_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 56.37752232093692,
+                        "x0": 0.0,
+                        "width": 586.4999755625,
+                        "height": 741.74996909375,
+                        "path": "assets/Ramleela_Dresses_2025/page_21_img_1_0_56.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Mrigshala ( Heavy)\nFor BhagwanParhshuram/Shankarji\n24*-180\n28*-200\n32*-225",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 22,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_22_img_2_613_-1.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Kewat Dress\n20*-250\n24*-300\n28*-350\n32*-400\n36*-450\n40*-500",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "page": 23,
+        "items": [
+            {
+                "images": [
+                    {
+                        "type": "image",
+                        "top": -1.9364368493146458,
+                        "x0": 613.240990448291,
+                        "width": 62.99999737500002,
+                        "height": 83.24998933125028,
+                        "path": "assets/Ramleela_Dresses_2025/page_23_img_1_613_-1.png"
+                    },
+                    {
+                        "type": "image",
+                        "top": 53.742970430709875,
+                        "x0": 28.51940809169128,
+                        "width": 700.4999708125,
+                        "height": 586.4999755625,
+                        "path": "assets/Ramleela_Dresses_2025/page_23_img_2_28_53.png"
+                    }
+                ],
+                "texts": [],
+                "rows": [
+                    [
+                        "",
+                        "Joker dress\nDress\n20*-250\n24*-275\n28*-300\n32*-350\n36*-400\n40*-400\nWig-90\nNose-15",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "se-15"
+                    ]
+                ]
+            }
+        ]
+    }
+]

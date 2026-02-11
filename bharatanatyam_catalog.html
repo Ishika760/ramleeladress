@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharatanatyam Collection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+        :root {
+            --primary: #8e24aa;
+            --secondary: #ff6f00;
+            --bg: #fafafa;
+            --card-bg: #ffffff;
+            --text: #333;
+        }
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 40px 20px;
+            color: var(--text);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: var(--primary);
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.2em;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .item-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            width: 100%;
+            height: 400px;
+            background: #eee;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .item-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Show full costume */
+            transition: transform 0.5s ease;
+        }
+        .item-card:hover .item-image {
+            transform: scale(1.05);
+        }
+        .details {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            color: var(--primary);
+            margin: 0 0 15px 0;
+            line-height: 1.3;
+        }
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+            margin-top: auto;
+        }
+        .specs-table th {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 2px solid #eee;
+            color: #888;
+            font-weight: 700;
+        }
+        .specs-table td {
+            padding: 8px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .price {
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        .badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--secondary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bharatanatyam Collection</h1>
+        <div class="subtitle">Exquisite Costumes & Accessories</div>
+    </header>
+
+    <div class="catalog">
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_1_img_2_27_136.png" alt="Unknown Product" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">Unknown Product</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>SIZE</td><td>AvailableQTY</td><td class='price'>₹RATE</td></tr><tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_1_img_3_27_306.png" alt="BHARATNATYAM SPECIAL BLACK ORANGE 2385 BLACK ORANGE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL BLACK ORANGE 2385 BLACK ORANGE</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_1_img_4_27_476.png" alt="BHARATNATYAM SPECIAL ORANGE 2386 BLACK ORANGE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL ORANGE 2386 BLACK ORANGE</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>24"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_1_img_5_27_666.png" alt="BHARATNATYAM SPECIAL PINK2387 PINK" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL PINK2387 PINK</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_2_img_1_27_0.png" alt="BHARTANATYAM SPECIAL WHITE 2388 WHITE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARTANATYAM SPECIAL WHITE 2388 WHITE</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_2_img_2_27_170.png" alt="BHARTANATYAM SPECIAL YELLOW 2389 YELLOW" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARTANATYAM SPECIAL YELLOW 2389 YELLOW</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>24"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_2_img_3_27_359.png" alt="BHARATNATYAM SPECIAL RANI 2390 RANI" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL RANI 2390 RANI</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>24"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_2_img_4_27_548.png" alt="BHARATNATYAM SPECIAL RED 2391 Red" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL RED 2391 Red</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_3_img_1_27_0.png" alt="BHARATNATYAM SPECIAL GREEN 2392 GREEN" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARATNATYAM SPECIAL GREEN 2392 GREEN</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/BHARTNATYAM_HAVI/page_3_img_2_27_170.png" alt="BHARTANATYAM SPECIAL BLUE 2393 BLUE" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <h2 class="product-title">BHARTANATYAM SPECIAL BLUE 2393 BLUE</h2>
+                
+                
+    <table class="specs-table">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Qty</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>28"</td><td>0</td><td class='price'>₹800.00</td></tr><tr><td>32"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>36"</td><td>0</td><td class='price'>₹1000.00</td></tr><tr><td>40"</td><td>0</td><td class='price'>₹1000.00</td></tr>
+        </tbody>
+    </table>
+    
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -26,7 +26,7 @@ def setup():
     print("Installing dependencies...")
     # Using uv pip install as per user rules
     # PyMuPDF (fitz) for PDF extraction, Pillow for image processing
-    run_command("uv pip install pymupdf Pillow")
+    run_command("uv pip install -p .venv pymupdf Pillow PyPDF2 pdfplumber")
 
     print("\nSetup complete!")
 

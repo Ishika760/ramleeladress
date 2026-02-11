@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imported Items Collection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+        :root {
+            --primary: #4527a0;
+            --secondary: #00acc1;
+            --bg: #f3e5f5;
+            --card-bg: #ffffff;
+            --text: #333;
+        }
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 40px 20px;
+            color: var(--text);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: var(--primary);
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.2em;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .item-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            width: 100%;
+            padding-bottom: 141%; /* A4 Aspect Ratio roughly 1:1.41 */
+            background: #fff;
+            position: relative;
+        }
+        .item-image {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .details {
+            padding: 15px;
+            text-align: center;
+            background: var(--primary);
+            color: white;
+        }
+        .page-tag {
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+        .nav-back {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #311b92;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Imported Items Collection</h1>
+        <div class="subtitle">Exclusive International Designs</div>
+    </header>
+
+    <div class="catalog">
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_1_img_1_0_-6.png" alt="Cover Page" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Cover Page</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_2_img_1_26_8.png" alt="Page 2" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 2</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_3_img_1_26_8.png" alt="Page 3" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 3</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_4_img_1_26_8.png" alt="Page 4" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 4</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_5_img_1_26_8.png" alt="Page 5" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 5</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_6_img_1_26_8.png" alt="Page 6" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 6</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_7_img_1_26_8.png" alt="Page 7" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 7</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_8_img_1_26_8.png" alt="Page 8" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 8</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_9_img_1_26_8.png" alt="Page 9" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 9</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_10_img_1_26_8.png" alt="Page 10" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 10</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_11_img_1_26_8.png" alt="Page 11" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 11</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_12_img_1_26_8.png" alt="Page 12" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 12</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_13_img_1_26_8.png" alt="Page 13" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 13</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_14_img_1_26_8.png" alt="Page 14" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 14</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_15_img_1_26_8.png" alt="Page 15" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 15</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_16_img_1_26_8.png" alt="Page 16" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 16</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_17_img_1_26_8.png" alt="Page 17" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 17</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_18_img_1_26_8.png" alt="Page 18" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 18</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_19_img_1_26_8.png" alt="Page 19" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 19</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_20_img_1_26_8.png" alt="Page 20" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 20</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_21_img_1_26_8.png" alt="Page 21" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 21</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_22_img_1_26_8.png" alt="Page 22" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 22</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_23_img_1_26_8.png" alt="Page 23" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 23</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_24_img_1_26_8.png" alt="Page 24" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 24</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_25_img_1_26_8.png" alt="Page 25" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 25</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_26_img_1_26_8.png" alt="Page 26" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 26</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_27_img_1_26_8.png" alt="Page 27" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 27</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_28_img_1_26_8.png" alt="Page 28" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 28</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_29_img_1_26_8.png" alt="Page 29" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 29</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_30_img_1_26_8.png" alt="Page 30" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 30</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_31_img_1_26_8.png" alt="Page 31" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 31</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_32_img_1_26_8.png" alt="Page 32" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 32</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_33_img_1_26_8.png" alt="Page 33" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 33</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_34_img_1_26_8.png" alt="Page 34" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 34</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_35_img_1_26_8.png" alt="Page 35" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 35</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_36_img_1_26_8.png" alt="Page 36" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 36</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_37_img_1_26_8.png" alt="Page 37" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 37</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_38_img_1_26_8.png" alt="Page 38" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 38</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_39_img_1_26_8.png" alt="Page 39" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 39</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_40_img_1_26_8.png" alt="Page 40" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 40</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_41_img_1_26_8.png" alt="Page 41" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 41</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_42_img_1_26_8.png" alt="Page 42" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 42</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_43_img_1_26_8.png" alt="Page 43" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 43</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_44_img_1_26_8.png" alt="Page 44" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 44</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_45_img_1_26_8.png" alt="Page 45" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 45</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_46_img_1_26_8.png" alt="Page 46" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 46</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_47_img_1_26_8.png" alt="Page 47" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 47</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_48_img_1_26_8.png" alt="Page 48" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 48</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_49_img_1_26_8.png" alt="Page 49" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 49</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_50_img_1_26_8.png" alt="Page 50" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 50</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_51_img_1_26_8.png" alt="Page 51" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 51</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_52_img_1_26_8.png" alt="Page 52" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 52</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_53_img_1_26_8.png" alt="Page 53" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 53</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_54_img_1_26_8.png" alt="Page 54" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 54</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_55_img_1_26_8.png" alt="Page 55" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 55</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_56_img_1_26_8.png" alt="Page 56" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 56</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_57_img_1_26_8.png" alt="Page 57" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 57</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_58_img_1_26_8.png" alt="Page 58" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 58</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_59_img_1_26_8.png" alt="Page 59" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 59</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_60_img_1_26_8.png" alt="Page 60" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 60</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_61_img_1_26_8.png" alt="Page 61" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 61</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_62_img_1_26_8.png" alt="Page 62" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 62</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_63_img_1_26_8.png" alt="Page 63" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 63</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_64_img_1_26_8.png" alt="Page 64" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 64</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_65_img_1_26_8.png" alt="Page 65" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 65</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_66_img_1_26_8.png" alt="Page 66" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 66</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_67_img_1_26_8.png" alt="Page 67" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 67</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_68_img_1_26_8.png" alt="Page 68" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 68</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_69_img_1_26_8.png" alt="Page 69" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 69</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_70_img_1_26_8.png" alt="Page 70" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 70</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_71_img_1_26_8.png" alt="Page 71" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 71</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_72_img_1_26_8.png" alt="Page 72" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 72</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_73_img_1_26_8.png" alt="Page 73" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 73</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_74_img_1_26_8.png" alt="Page 74" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 74</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_75_img_1_26_8.png" alt="Page 75" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 75</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_76_img_1_26_8.png" alt="Page 76" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 76</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_77_img_1_26_8.png" alt="Page 77" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 77</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_78_img_1_26_8.png" alt="Page 78" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 78</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_79_img_1_26_8.png" alt="Page 79" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 79</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_80_img_1_26_8.png" alt="Page 80" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 80</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_81_img_1_26_8.png" alt="Page 81" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 81</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_82_img_1_26_8.png" alt="Page 82" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 82</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_83_img_1_26_8.png" alt="Page 83" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 83</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_84_img_1_26_8.png" alt="Page 84" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 84</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_85_img_1_26_8.png" alt="Page 85" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 85</span>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <div class="image-container">
+                <img src="assets/Imported_Items____1_/page_86_img_1_26_7.png" alt="Page 86" class="item-image" loading="lazy">
+            </div>
+            <div class="details">
+                <span class="page-tag">Page 86</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-back">
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
